@@ -1,0 +1,24 @@
+{
+    "TestCar Behavior": {
+        "checkpoints": [
+            {
+                "steps": 20690,
+                "file_path": "results/testcar038/TestCar Behavior/TestCar Behavior-20690.onnx",
+                "reward": -1.0,
+                "creation_time": 1612574227.579972
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20690,
+            "file_path": "results/testcar038/TestCar Behavior.onnx",
+            "reward": -1.0,
+            "creation_time": 1612574227.579972
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": -1
+    }
+}
