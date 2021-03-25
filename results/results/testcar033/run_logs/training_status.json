@@ -1,0 +1,30 @@
+{
+    "TestCar Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499993,
+                "file_path": "results/testcar033/TestCar Behavior/TestCar Behavior-499993.onnx",
+                "reward": 21.026523174223353,
+                "creation_time": 1612501615.250346
+            },
+            {
+                "steps": 500013,
+                "file_path": "results/testcar033/TestCar Behavior/TestCar Behavior-500013.onnx",
+                "reward": 21.014133232091766,
+                "creation_time": 1612501615.386985
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500013,
+            "file_path": "results/testcar033/TestCar Behavior.onnx",
+            "reward": 21.014133232091766,
+            "creation_time": 1612501615.386985
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": -1
+    }
+}

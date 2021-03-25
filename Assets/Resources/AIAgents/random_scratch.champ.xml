@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <ActivationFunctions>
+    <Fn id="0" name="SteepenedSigmoid" prob="1" />
+  </ActivationFunctions>
+  <Networks>
+    <Network id="41473" birthGen="1029" fitness="245.23379516601563">
+      <Nodes>
+        <Node type="bias" id="0" />
+        <Node type="in" id="1" />
+        <Node type="in" id="2" />
+        <Node type="in" id="3" />
+        <Node type="in" id="4" />
+        <Node type="out" id="5" />
+        <Node type="out" id="6" />
+        <Node type="hid" id="42" />
+        <Node type="hid" id="62" />
+        <Node type="hid" id="181" />
+        <Node type="hid" id="192" />
+        <Node type="hid" id="252" />
+        <Node type="hid" id="435" />
+        <Node type="hid" id="455" />
+        <Node type="hid" id="463" />
+      </Nodes>
+      <Connections>
+        <Con id="43" src="2" tgt="42" wght="-2.066455617593987" />
+        <Con id="109" src="1" tgt="42" wght="4.2073626297241482" />
+        <Con id="113" src="42" tgt="5" wght="-2.7219208179046461" />
+        <Con id="182" src="62" tgt="181" wght="-3.7284251175508833" />
+        <Con id="193" src="4" tgt="192" wght="-3.7449819292235018" />
+        <Con id="205" src="42" tgt="62" wght="-1.4660960082213264" />
+        <Con id="242" src="192" tgt="5" wght="-1.9098379835486412" />
+        <Con id="249" src="0" tgt="181" wght="-4.4286308157167547" />
+        <Con id="253" src="42" tgt="252" wght="-4.649773221462965" />
+        <Con id="254" src="252" tgt="192" wght="5" />
+        <Con id="288" src="1" tgt="192" wght="4.7576564859928689" />
+        <Con id="293" src="42" tgt="6" wght="1.8315258625407771" />
+        <Con id="294" src="2" tgt="62" wght="3.6382059924685879" />
+        <Con id="295" src="3" tgt="6" wght="3.1780979283643589" />
+        <Con id="305" src="1" tgt="181" wght="2.5551402056589723" />
+        <Con id="307" src="181" tgt="6" wght="4.7671434748917818" />
+        <Con id="316" src="62" tgt="6" wght="-2.59687139803813" />
+        <Con id="322" src="2" tgt="6" wght="1.3423101395756767" />
+        <Con id="323" src="42" tgt="192" wght="4.1703123971819878" />
+        <Con id="325" src="192" tgt="6" wght="-3.2284587780603307" />
+        <Con id="327" src="0" tgt="42" wght="1.7627223245675507" />
+        <Con id="333" src="252" tgt="181" wght="-1.1432518301308696" />
+        <Con id="341" src="252" tgt="62" wght="2.9114585595075155" />
+        <Con id="346" src="4" tgt="252" wght="-0.92736732680350542" />
+        <Con id="358" src="0" tgt="192" wght="-1.0561061270870831" />
+        <Con id="360" src="252" tgt="6" wght="3.3576476504703021" />
+        <Con id="436" src="192" tgt="435" wght="-1.0096002572703746" />
+        <Con id="437" src="435" tgt="62" wght="-4.4214783765914607" />
+        <Con id="438" src="252" tgt="435" wght="2.8973517986014485" />
+        <Con id="443" src="435" tgt="181" wght="-4.4805901181923353" />
+        <Con id="445" src="42" tgt="435" wght="-1.1032899817931625" />
+        <Con id="456" src="2" tgt="455" wght="0.8101109021991405" />
+        <Con id="459" src="455" tgt="192" wght="-0.14794545248150826" />
+        <Con id="464" src="252" tgt="463" wght="1.2361316482356921" />
+        <Con id="465" src="463" tgt="181" wght="-3.2407070155814717" />
+        <Con id="477" src="0" tgt="435" wght="-0.76387239300636534" />
+        <Con id="486" src="463" tgt="435" wght="0.66515913233160973" />
+        <Con id="495" src="0" tgt="455" wght="2.3935748729854822" />
+      </Connections>
+    </Network>
+  </Networks>
+</Root>
