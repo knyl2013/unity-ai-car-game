@@ -294,18 +294,18 @@ public class Optimizer : MonoBehaviour {
         NeatGenome genome = null;
 
         // just for demo
-        if (cnt == 0)
-        {
-            trainedObjectName = "course02_random";
-            cnt++;
-        }
-        else
-        {
-            trainedObjectName = "random_scratch";
-            cnt--;
-        }
-        champFileSavePath = string.Format("{0}/{1}.champ", "AIAgents", trainedObjectName);
-        Debug.Log(champFileSavePath);
+        //if (cnt == 0)
+        //{
+        //    trainedObjectName = "course02_random";
+        //    cnt++;
+        //}
+        //else
+        //{
+        //    trainedObjectName = "random_scratch";
+        //    cnt--;
+        //}
+        //champFileSavePath = string.Format("{0}/{1}.champ", "AIAgents", trainedObjectName);
+        //Debug.Log(champFileSavePath);
         // Try to load the genome from the XML document.
         try
         {
