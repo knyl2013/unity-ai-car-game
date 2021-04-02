@@ -31,7 +31,7 @@ public class Optimizer : MonoBehaviour {
     private int frames;//frame count
     private float updateInterval = 12;//how often we want to update the frame rate
 
-    private uint Generation;
+    public uint Generation;
     private double Fitness;
 
     
