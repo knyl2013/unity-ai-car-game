@@ -7,6 +7,7 @@ using SharpNeat.Genomes.Neat;
 using System;
 using System.Xml;
 using System.IO;
+using UnityEditor;
 
 public class Optimizer : MonoBehaviour {
 
@@ -268,6 +269,9 @@ public class Optimizer : MonoBehaviour {
             experiment.SavePopulation(xw, new NeatGenome[] { _ea.CurrentChampGenome });
         }
         Debug.Log("Exit Save()");
+
+        // also output fitness history to last_fitness_history.txt
+        WriteFitness();
     }
 
     public void Evaluate(IBlackBox box)
@@ -402,5 +406,20 @@ public class Optimizer : MonoBehaviour {
             PrintHistory();
         }
 
+    }
+
+
+    private void WriteFitness()
+    {
+        string path = "Assets/Resources/last_fitness_history.txt";
+        //Write some text to the test.txt file
+        StreamWriter writer = new StreamWriter(path, false);
+        string ans = "";
+        foreach (float fit in historyFitness)
+        {
+            ans += fit + ", ";
+        }
+        writer.WriteLine(ans);
+        writer.Close();
     }
 }
