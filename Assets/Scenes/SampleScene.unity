@@ -1024,6 +1024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -1252,6 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -2120,6 +2122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -2464,6 +2467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -2498,8 +2502,8 @@ GameObject:
   - component: {fileID: 461449999}
   - component: {fileID: 461449998}
   - component: {fileID: 461449997}
-  - component: {fileID: 461450000}
   - component: {fileID: 461450001}
+  - component: {fileID: 461450000}
   m_Layer: 0
   m_Name: Obstacle2 (1)
   m_TagString: Untagged
@@ -2593,6 +2597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -2731,8 +2736,8 @@ GameObject:
   - component: {fileID: 514706972}
   - component: {fileID: 514706971}
   - component: {fileID: 514706970}
-  - component: {fileID: 514706973}
   - component: {fileID: 514706974}
+  - component: {fileID: 514706973}
   m_Layer: 0
   m_Name: Obstacle2 (2)
   m_TagString: Untagged
@@ -2826,6 +2831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -2911,6 +2917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -3495,6 +3502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -3726,6 +3734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -3963,6 +3972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -4656,6 +4666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -4805,6 +4816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -5148,8 +5160,8 @@ GameObject:
   - component: {fileID: 989534080}
   - component: {fileID: 989534079}
   - component: {fileID: 989534078}
-  - component: {fileID: 989534081}
   - component: {fileID: 989534082}
+  - component: {fileID: 989534081}
   m_Layer: 0
   m_Name: Obstacle2 (4)
   m_TagString: Untagged
@@ -5243,6 +5255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -5751,6 +5764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -6146,6 +6160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -6399,6 +6414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
@@ -7051,6 +7067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -8102,8 +8119,8 @@ GameObject:
   - component: {fileID: 1785790530}
   - component: {fileID: 1785790529}
   - component: {fileID: 1785790528}
-  - component: {fileID: 1785790531}
   - component: {fileID: 1785790532}
+  - component: {fileID: 1785790531}
   m_Layer: 0
   m_Name: Obstacle2 (3)
   m_TagString: Untagged
@@ -8197,6 +8214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -8326,8 +8344,8 @@ GameObject:
   - component: {fileID: 1821647250}
   - component: {fileID: 1821647249}
   - component: {fileID: 1821647248}
-  - component: {fileID: 1821647251}
   - component: {fileID: 1821647252}
+  - component: {fileID: 1821647251}
   m_Layer: 0
   m_Name: Obstacle2
   m_TagString: Untagged
@@ -8421,6 +8439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 2
   period: 0
@@ -9449,6 +9468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0544c467dc758476b8488425da19f378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: 0
   epislion: 0.001
   speed: 0
   period: 0
