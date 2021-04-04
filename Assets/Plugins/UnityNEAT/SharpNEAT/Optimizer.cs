@@ -12,10 +12,10 @@ using UnityEditor;
 public class Optimizer : MonoBehaviour {
 
     //set the number of inputs we are going to use in this Neural Net
-    const int NUM_INPUTS = 4;
+    public int NUM_INPUTS = 7;
 
     //set the number of outputs we plan to use
-    const int NUM_OUTPUTS = 2; // for training normal car
+    public int NUM_OUTPUTS = 2; // for training normal car
     //const int NUM_OUTPUTS = 3; // for training drift car
 
     public int Trials;//number of trials for each generation
