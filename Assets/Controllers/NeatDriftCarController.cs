@@ -302,9 +302,9 @@ public class NeatDriftCarController : UnitController
 		for (int i = 0; i < wheels.Length; i++)
 		{
 			sum += wheels[i].rpm;
-			rpm = wheels[i].rpm;
-		}
-		wheelsRPM = sum / 4;
+        }
+        rpm = wheels[0].rpm;
+        wheelsRPM = sum / 4;
 	}
 
 	private void addDownForce()
