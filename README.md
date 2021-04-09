@@ -4,4 +4,4 @@
 2. Clone this project
 3. Open the project using Unity
 4. Click the play button to execute the game
-5. Click "Run Best" to show the result of pretrained model
+5. Click "Run best" / "Start EA" to show the result of pretrained model
