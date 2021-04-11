@@ -61,6 +61,10 @@ public class Optimizer : MonoBehaviour {
 
     public int generateRandomMazeEvery = 50;
 
+    public bool hideMenu = false;
+
+    public bool createChampOnStart = false;
+
 
     // Use this for initialization
     void Start () {
@@ -82,14 +86,10 @@ public class Optimizer : MonoBehaviour {
             Utility.Log(champFileSavePath);
         }
 
-        //historyFitness.Add(1f);
-        //historyFitness.Add(3f);
-        //historyFitness.Add(4f);
-        //historyFitness.Add(5f);
-
-        //Debug.Log("start");
-        //currentMaze = Instantiate(RandomMaze, RandomMaze.transform.position, RandomMaze.transform.rotation);
-        //Instantiate(Target, Target.transform.position, Target.transform.rotation);
+        if (createChampOnStart)
+        {
+            RunBest();
+        }
     }
 
     // Update is called once per frame
@@ -382,6 +382,10 @@ public class Optimizer : MonoBehaviour {
 
     void OnGUI()
     {
+        if (hideMenu)
+        {
+            return;
+        }
         if (doTrain)
         {
             if (GUI.Button(new Rect(10, 10, 100, 40), "Start EA"))

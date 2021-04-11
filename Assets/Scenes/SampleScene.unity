@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 5610569647789547169, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 5610569647789547169, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
@@ -575,7 +575,7 @@ PrefabInstance:
     - target: {fileID: 5610569647789547169, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 5610569647789547169, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
@@ -2625,6 +2625,8 @@ MonoBehaviour:
   currentMaze: {fileID: 0}
   generateRandomMaze: 0
   generateRandomMazeEvery: 50
+  hideMenu: 1
+  createChampOnStart: 1
 --- !u!4 &495972619
 Transform:
   m_ObjectHideFlags: 0
@@ -7448,7 +7450,7 @@ PrefabInstance:
     - target: {fileID: 5610569647789547169, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 5610569647789547169, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
@@ -9246,7 +9248,7 @@ Transform:
   m_LocalScale: {x: 4, y: 1, z: 1000}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137420170
 GameObject:
@@ -9555,7 +9557,7 @@ PrefabInstance:
     - target: {fileID: 465159324358145975, guid: 7aa39a0b3ed524f2da406925fd593e8e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 465159324358145975, guid: 7aa39a0b3ed524f2da406925fd593e8e,
         type: 3}
@@ -9619,7 +9621,7 @@ PrefabInstance:
     - target: {fileID: 3212515612791378805, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3212515612791378805, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
@@ -9674,7 +9676,7 @@ PrefabInstance:
     - target: {fileID: 3212515612791379101, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
       propertyPath: m_Name
-      value: smartTestCar1500
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3212515612791379101, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
