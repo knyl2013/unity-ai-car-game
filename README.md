@@ -5,6 +5,6 @@
 3. Open the project using Unity
 4. Click the play button to execute the game to see the result of pretrained model
 
-## Libraries / Reference
+## Libraries / References
 [UnityNEAT](https://github.com/lordjesus/UnityNEAT) <br>
 [MLAgents](https://github.com/Unity-Technologies/ml-agents)
