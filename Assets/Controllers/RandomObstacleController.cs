@@ -20,11 +20,19 @@ public class RandomObstacleController : MonoBehaviour
             float diff = Mathf.Abs(lastX - transform.position.x);
             if (diff < epislion)
             {
-                speed *= -1;
                 if (noLoop)
                 {
                     speed = 0;
                     done = true;
+                }
+                else
+                {
+                    restCur++;
+                    if (restCur >= restPeriod)
+                    {
+                        restCur = 0;
+                        speed *= -1;
+                    }
                 }
             }
             lastX = transform.position.x;
@@ -39,5 +47,7 @@ public class RandomObstacleController : MonoBehaviour
     public float nextActionTime;
     public float lastX = -1;
     public bool noLoop = false;
+    public int restPeriod = 5;
+    public int restCur = 0;
     private bool done = false;
 }
