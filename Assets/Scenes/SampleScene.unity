@@ -171,6 +171,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -302,6 +303,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -738,6 +740,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -1094,6 +1097,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -1657,6 +1661,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -1887,6 +1892,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -1942,6 +1948,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -2888,6 +2895,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -3234,6 +3242,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -3365,6 +3374,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -3429,7 +3439,7 @@ MonoBehaviour:
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: course02_motion_obs3_easy
+  trainedObjectName: course02_motion_easy2
   historyFitness: []
   saveInterval: 10
   RandomMaze: {fileID: 0}
@@ -3600,6 +3610,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -3687,6 +3698,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -4273,6 +4285,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -4500,6 +4513,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -4637,6 +4651,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -4876,6 +4891,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -5571,6 +5587,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -5722,6 +5739,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -6162,6 +6180,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -6420,7 +6439,7 @@ Transform:
   m_GameObject: {fileID: 1096601910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -41.81, y: 0.5, z: 5.01}
-  m_LocalScale: {x: 5, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 993907796}
   m_RootOrder: 21
@@ -6439,11 +6458,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current: 0
   epislion: 0.001
-  speed: 0.5
+  speed: 3
+  period: 25
   nextActionTime: 0
   lastX: -1
   noLoop: 0
-  restPeriod: 3
+  restPeriod: 0
   restCur: 0
 --- !u!54 &1096601913
 Rigidbody:
@@ -6747,6 +6767,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -7114,6 +7135,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -7435,6 +7457,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -7642,6 +7665,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -7703,6 +7727,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -7958,6 +7983,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -8159,6 +8185,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1
@@ -8813,6 +8840,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -10141,6 +10169,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -10367,6 +10396,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 2
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 0
@@ -11503,6 +11533,7 @@ MonoBehaviour:
   current: 0
   epislion: 0.001
   speed: 0
+  period: 100
   nextActionTime: 0
   lastX: -1
   noLoop: 1

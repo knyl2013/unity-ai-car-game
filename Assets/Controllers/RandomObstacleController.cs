@@ -42,12 +42,12 @@ public class RandomObstacleController : MonoBehaviour
 
     public float current;
     public float epislion = 0.001f;
-    public float speed = 2f;
-    public const float period = 100;
+    public float speed = 3f;
+    public float period = 25;
     public float nextActionTime;
     public float lastX = -1;
     public bool noLoop = false;
-    public int restPeriod = 5;
+    public int restPeriod = 0;
     public int restCur = 0;
     private bool done = false;
 }
