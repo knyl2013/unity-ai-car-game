@@ -121,8 +121,8 @@ public class MyCarController : MonoBehaviour
             //Debug.Log("Input: (0, 0, 0), Output: " + network.RunNetwork(0f, 0f, 0f));
             //Debug.Log("Input: (0.5, 0.5, 0.5), Output: " + network.RunNetwork(0.5f, 0.5f, 0.5f));
             //Debug.Log("Input: (1, 1, 1), Output: " + network.RunNetwork(1f, 1f, 1f));
-            //network.Print();
-            //network.SaveNetwork();
+            network.Print();
+            network.SaveNetwork();
             Death();
             Reset();
         }
