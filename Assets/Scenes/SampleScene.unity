@@ -5536,7 +5536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0598c8935ca824fd68f86ee552ba6f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 497649164}
+  controller: {fileID: 662271322}
   initialPopulation: 30
   mutationRate: 0.8
   bestAgentSelection: 6
