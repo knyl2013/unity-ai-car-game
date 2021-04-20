@@ -9,13 +9,14 @@ using System.Xml;
 using System.IO;
 using UnityEditor;
 
-public class Optimizer : MonoBehaviour {
+public class Optimizer : MonoBehaviour
+{
 
     //set the number of inputs we are going to use in this Neural Net
-    public int NUM_INPUTS = 7;
+    const int NUM_INPUTS = 7;
 
     //set the number of outputs we plan to use
-    public int NUM_OUTPUTS = 2; // for training normal car
+    const int NUM_OUTPUTS = 2; // for training normal car
     //const int NUM_OUTPUTS = 3; // for training drift car
 
     public int Trials;//number of trials for each generation
@@ -35,7 +36,7 @@ public class Optimizer : MonoBehaviour {
     public uint Generation;
     private double Fitness;
 
-    
+
 
     SimpleExperiment experiment;
     static NeatEvolutionAlgorithm<NeatGenome> _ea;
@@ -61,9 +62,14 @@ public class Optimizer : MonoBehaviour {
 
     public int generateRandomMazeEvery = 50;
 
+    public bool hideMenu = false;
+
+    public bool createChampOnStart = false;
+
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         accum = 0;
         Utility.DebugLog = showDebugger;
         experiment = new SimpleExperiment();
@@ -74,22 +80,18 @@ public class Optimizer : MonoBehaviour {
 
         experiment.Initialize(trainedObjectName + " Experiment", xmlConfig.DocumentElement, NUM_INPUTS, NUM_OUTPUTS);
         historyFitness = new List<float>();
-        champFileSavePath  = string.Format("{0}/{1}.champ", "AIAgents", trainedObjectName);
-        popFileSavePath    = string.Format("{0}/{1}.pop", "IAgents", trainedObjectName);
+        champFileSavePath = string.Format("{0}/{1}.champ", "AIAgents", trainedObjectName);
+        popFileSavePath = string.Format("{0}/{1}.pop", "IAgents", trainedObjectName);
 
         if (Utility.DebugLog)
         {
             Utility.Log(champFileSavePath);
         }
 
-        //historyFitness.Add(1f);
-        //historyFitness.Add(3f);
-        //historyFitness.Add(4f);
-        //historyFitness.Add(5f);
-
-        //Debug.Log("start");
-        //currentMaze = Instantiate(RandomMaze, RandomMaze.transform.position, RandomMaze.transform.rotation);
-        //Instantiate(Target, Target.transform.position, Target.transform.rotation);
+        if (createChampOnStart)
+        {
+            RunBest();
+        }
     }
 
     // Update is called once per frame
@@ -132,7 +134,7 @@ public class Optimizer : MonoBehaviour {
         }
 
         //make sure we don't save more than once if the frames are still running and our generation has not updated yet
-        if(isSaved && ((Generation - 1) % saveInterval == 0))
+        if (isSaved && ((Generation - 1) % saveInterval == 0))
         {
             isSaved = false;
         }
@@ -187,7 +189,7 @@ public class Optimizer : MonoBehaviour {
                 Destroy(currentMaze);
                 currentMaze = Instantiate(RandomMaze, RandomMaze.transform.position, RandomMaze.transform.rotation);
             }
-            historyFitness.Add((float) _ea.Statistics._maxFitness);
+            historyFitness.Add((float)_ea.Statistics._maxFitness);
         }
 
         Fitness = _ea.Statistics._maxFitness;
@@ -202,7 +204,7 @@ public class Optimizer : MonoBehaviour {
         //var sn = gameObject.GetComponent<RoadGen>()
         //sn.DoSomething();
 
-        
+
 
     }
 
@@ -382,6 +384,10 @@ public class Optimizer : MonoBehaviour {
 
     void OnGUI()
     {
+        if (hideMenu)
+        {
+            return;
+        }
         if (doTrain)
         {
             if (GUI.Button(new Rect(10, 10, 100, 40), "Start EA"))

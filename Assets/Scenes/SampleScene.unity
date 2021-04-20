@@ -3531,8 +3531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a5348a7fbc40951edfd1c5e796d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NUM_INPUTS: 7
-  NUM_OUTPUTS: 2
   Trials: 1
   TrialDuration: 300
   StoppingFitness: 500000
@@ -3552,6 +3550,8 @@ MonoBehaviour:
   currentMaze: {fileID: 0}
   generateRandomMaze: 0
   generateRandomMazeEvery: 50
+  hideMenu: 1
+  createChampOnStart: 1
 --- !u!4 &495972619
 Transform:
   m_ObjectHideFlags: 0
@@ -12105,7 +12105,7 @@ PrefabInstance:
     - target: {fileID: 1188026797073718831, guid: 9558789f5490149fe962f9e1ee583c57,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9558789f5490149fe962f9e1ee583c57, type: 3}
