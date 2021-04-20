@@ -29,17 +29,25 @@ public class MyCarController : MonoBehaviour
 
     public float aSensor, bSensor, cSensor;
 
+    public float rpm;
+
+    public bool movingForward;
+
     [Header("Network Options")]
     public int LAYERS = 1;
     public int NEURONS = 10;
     public bool runBest = false;
     public string ID = "";
 
+    private Rigidbody rigidbody;
+    public bool controlByHuman;
+
 
     private void Awake()
     {
         startPosition = transform.position;
         startRotation = transform.eulerAngles;
+        rigidbody = GetComponent<Rigidbody>();
         network = new NNet(LAYERS, NEURONS);
 
         if (runBest)
@@ -63,6 +71,8 @@ public class MyCarController : MonoBehaviour
         overallFitness = 0f;
         transform.position = startPosition;
         transform.eulerAngles = startRotation;
+        rigidbody.velocity = Vector3.zero;
+        rigidbody.angularVelocity = Vector3.zero;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -77,8 +87,8 @@ public class MyCarController : MonoBehaviour
         lastPosition = transform.position;
 
         // Neural network code here
-
-        (a, t) = network.RunNetwork(aSensor, bSensor, cSensor);
+        if (!controlByHuman)
+            (a, t) = network.RunNetwork(aSensor, bSensor, cSensor);
 
         //Debug.Log((a, t));
 
@@ -173,6 +183,21 @@ public class MyCarController : MonoBehaviour
         //transform.position.y = Mathf.Min(startPosition.y, transform.position.y);
         transform.eulerAngles += new Vector3(0, (h * 90) * RATE, 0);
 
+        //var velocity = rigidbody.velocity;
+        //var localVel = transform.InverseTransformDirection(velocity);
+        //movingForward = localVel.z > 0;
+
+
+
+        //if (movingForward)
+        //{
+        //    rpm = rigidbody.velocity.magnitude * 3.6f;
+        //}
+        //else
+        //{
+        //    rpm = -rigidbody.velocity.magnitude * 3.6f;
+        //}
+
     }
 
     public void ResetWithNetwork(NNet net)
@@ -187,8 +212,6 @@ public class MyCarController : MonoBehaviour
             GameObject.FindObjectOfType<GeneticManager>().Death(overallFitness, network);
         }
     }
-
-    
 
 
 }
