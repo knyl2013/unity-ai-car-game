@@ -3432,14 +3432,14 @@ MonoBehaviour:
   StoppingFitness: 500000
   Generation: 0
   Target: {fileID: 7207553575342555704, guid: e98b0e1c5b7244468ab369bc670580df, type: 3}
-  Unit: {fileID: 5078755960574211293, guid: e4216d632d9904b3191e5f94b2e12877, type: 3}
+  Unit: {fileID: 3212515612791379101, guid: 8627b3c5df593402195e0daab8357d66, type: 3}
   distaceTargetAllowed: 1
   doTrain: 1
   canThrottleFPS: 0
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: course02_motion_easy2
+  trainedObjectName: course02_testcar_easy2
   historyFitness: []
   saveInterval: 10
   RandomMaze: {fileID: 0}
