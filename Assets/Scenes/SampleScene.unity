@@ -2618,7 +2618,7 @@ MonoBehaviour:
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: course02_obstacle4_202104
+  trainedObjectName: course02_10obs_scartch
   historyFitness: []
   saveInterval: 10
   RandomMaze: {fileID: 0}
@@ -5238,7 +5238,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020101288}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd2c72b797c8c44e9aea7dada2965929, type: 3}
   m_Name: 
