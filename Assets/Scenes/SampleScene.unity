@@ -3425,7 +3425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b24a5348a7fbc40951edfd1c5e796d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NUM_INPUTS: 7
+  NUM_INPUTS: 4
   NUM_OUTPUTS: 2
   Trials: 1
   TrialDuration: 300
