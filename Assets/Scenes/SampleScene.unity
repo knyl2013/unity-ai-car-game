@@ -635,7 +635,7 @@ PrefabInstance:
     - target: {fileID: 5610569647789547170, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6356271070196454612, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
@@ -1900,10 +1900,16 @@ PrefabInstance:
     - target: {fileID: 402963569437045849, guid: 0b78ec2922e4e4dfd8367384c8256459,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b78ec2922e4e4dfd8367384c8256459, type: 3}
+--- !u!1 &344909720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 402963569437045849, guid: 0b78ec2922e4e4dfd8367384c8256459,
+    type: 3}
+  m_PrefabInstance: {fileID: 344909719}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &353009679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2618,15 +2624,15 @@ MonoBehaviour:
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: course02_obstacle4_202104
+  trainedObjectName: random_scratch_202104
   historyFitness: []
   saveInterval: 10
-  RandomMaze: {fileID: 0}
+  RandomMaze: {fileID: 344909720}
   currentMaze: {fileID: 0}
   generateRandomMaze: 0
   generateRandomMazeEvery: 50
-  hideMenu: 1
-  createChampOnStart: 1
+  hideMenu: 0
+  createChampOnStart: 0
 --- !u!4 &495972619
 Transform:
   m_ObjectHideFlags: 0
