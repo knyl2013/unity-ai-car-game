@@ -2618,7 +2618,7 @@ MonoBehaviour:
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: course02_obstacle4_202104
+  trainedObjectName: innov_202104_course02
   historyFitness: []
   saveInterval: 10
   RandomMaze: {fileID: 0}

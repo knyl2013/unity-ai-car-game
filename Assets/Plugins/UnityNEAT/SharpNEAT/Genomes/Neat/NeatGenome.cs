@@ -248,6 +248,8 @@ namespace SharpNeat.Genomes.Neat
 
             // Mutate the new genome.
             offspring.Mutate();
+
+            // Extra mutate for low fitness
             if (_evalInfo.Fitness < 1000)
             {
                 offspring.Mutate();
