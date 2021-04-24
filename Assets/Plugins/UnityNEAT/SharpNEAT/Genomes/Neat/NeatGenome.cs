@@ -248,6 +248,11 @@ namespace SharpNeat.Genomes.Neat
 
             // Mutate the new genome.
             offspring.Mutate();
+            if (_evalInfo.Fitness < 1000)
+            {
+                offspring.Mutate();
+                offspring.Mutate();
+            }
             return offspring;
         }
 
