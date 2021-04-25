@@ -6099,7 +6099,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 6
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -6116,7 +6116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.24639253, y: 0.6751514, z: -0.25762442, w: 0.6458259}
-  m_LocalPosition: {x: -100, y: 67, z: 48}
+  m_LocalPosition: {x: -88.4, y: 56.4, z: 43.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12086,6 +12086,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3212515611630226181, guid: 8627b3c5df593402195e0daab8357d66,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c35c7d5e33766674d8a3e2078892b059, type: 2}
     - target: {fileID: 3212515612791378805, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
       propertyPath: m_RootOrder
@@ -12149,7 +12154,7 @@ PrefabInstance:
     - target: {fileID: 3212515612791379101, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8142226955306955004, guid: 8627b3c5df593402195e0daab8357d66,
         type: 3}
