@@ -19,6 +19,7 @@ public class FinishLineController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.gameObject.name + " finishes at " + elapsedTime + " seconds");
+        Destroy(collision.gameObject);
     }
 
     private float elapsedTime;
