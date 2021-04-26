@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2611,14 +2611,14 @@ MonoBehaviour:
   StoppingFitness: 500000
   Generation: 0
   Target: {fileID: 7207553575342555704, guid: e98b0e1c5b7244468ab369bc670580df, type: 3}
-  Unit: {fileID: 3212515612791379101, guid: 8627b3c5df593402195e0daab8357d66, type: 3}
+  Unit: {fileID: 7229177029039857755, guid: e805b5b812558488381003f384ce077f, type: 3}
   distaceTargetAllowed: 1
   doTrain: 1
   canThrottleFPS: 0
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: innov_202104_course02_2
+  trainedObjectName: innov_202104_course01_race
   historyFitness: []
   saveInterval: 10
   RandomMaze: {fileID: 0}
@@ -7317,7 +7317,7 @@ PrefabInstance:
     - target: {fileID: 5610569647789547170, guid: d68f5942afdae439d801265ed49c8afa,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d68f5942afdae439d801265ed49c8afa, type: 3}
@@ -9449,7 +9449,7 @@ PrefabInstance:
     - target: {fileID: 2926481479151956703, guid: 47643ad3edbf3410494a0d8b921cc00d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47643ad3edbf3410494a0d8b921cc00d, type: 3}
