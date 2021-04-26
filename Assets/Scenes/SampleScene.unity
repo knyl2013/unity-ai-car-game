@@ -2611,14 +2611,14 @@ MonoBehaviour:
   StoppingFitness: 500000
   Generation: 0
   Target: {fileID: 7207553575342555704, guid: e98b0e1c5b7244468ab369bc670580df, type: 3}
-  Unit: {fileID: 7229177029039857755, guid: e805b5b812558488381003f384ce077f, type: 3}
+  Unit: {fileID: 3212515612791379101, guid: 8627b3c5df593402195e0daab8357d66, type: 3}
   distaceTargetAllowed: 1
   doTrain: 1
   canThrottleFPS: 0
   fpsMin: 10
   showDebugger: 1
   timeScale: 1
-  trainedObjectName: innov_202104_course01_race
+  trainedObjectName: innov_202104_course01
   historyFitness: []
   saveInterval: 10
   RandomMaze: {fileID: 0}
