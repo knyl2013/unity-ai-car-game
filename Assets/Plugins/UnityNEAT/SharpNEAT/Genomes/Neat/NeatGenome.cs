@@ -250,10 +250,14 @@ namespace SharpNeat.Genomes.Neat
             offspring.Mutate();
 
             // Extra mutate for low fitness
-            if (_evalInfo.Fitness < 1000)
+            bool extraMutation = false;
+            if (extraMutation)
             {
-                offspring.Mutate();
-                offspring.Mutate();
+                if (_evalInfo.Fitness < 1000)
+                {
+                    offspring.Mutate();
+                    offspring.Mutate();
+                }
             }
             return offspring;
         }
