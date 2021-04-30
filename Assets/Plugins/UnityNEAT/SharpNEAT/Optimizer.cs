@@ -15,8 +15,8 @@ public class Optimizer : MonoBehaviour {
     const int NUM_INPUTS = 4;
 
     //set the number of outputs we plan to use
-    const int NUM_OUTPUTS = 2; // for training normal car
-    //const int NUM_OUTPUTS = 3; // for training drift car
+    //const int NUM_OUTPUTS = 2; // for training normal car
+    const int NUM_OUTPUTS = 3; // for training drift car
 
     public int Trials;//number of trials for each generation
     public float TrialDuration;//how long a trial lasts
