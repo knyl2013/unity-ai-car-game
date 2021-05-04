@@ -232,10 +232,10 @@ public class NeatDriftCarController : UnitController
             Reset();
         }
 
-        if (transform.position.y < -10)
-        {
-            Reset();
-        }
+        //if (transform.position.y < -10)
+        //{
+        //    Reset();
+        //}
 
         if (timeSinceStoppeed > 5.0f)
         {
